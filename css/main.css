@@ -1,12 +1,52 @@
+*, *:before,*:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}    
+
 body{
-    background-color: crimson;
-    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+   
     
 }
-.hola{
-    background-color: yellow;
 
+nav{
+padding: none;
+    
+    height: 12vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
+    
 }
-.hola2{
-    background-color: blueviolet;
+
+.vistas{
+    display: flex;
+    list-style: none;
+  
+   
+}
+.vistas li{
+
+    padding: 15%;
+    display: block;
+}
+
+.vistas li a{
+    font-size: 30px;
+    color: rgb(200, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vistas li.active a{
+    color: white;
 }
