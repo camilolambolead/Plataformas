@@ -92,3 +92,20 @@ padding: none;
     object-fit: cover;
     
 }
+
+.carrera{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: auto;
+}
+.carrera h1{
+    font-weight: bolder;
+    color: rgb(200, 0, 0);
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 3%;
+   
+}
