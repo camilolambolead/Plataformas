@@ -50,3 +50,45 @@ padding: none;
 .vistas li.active a{
     color: white;
 }
+
+.inicio{
+
+    padding: 2%;
+    height: 80%;
+}
+.inicio h1{
+    font-weight: bolder;
+    color: rgb(200, 0, 0);
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inicio .textoInicio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inicio .textoInicio .texto{
+
+    width: 70%;
+ 
+   
+    padding: 2%;
+    
+}
+.inicio .textoInicio .imagen{
+    width: 50%;
+    height: 80%;
+
+    object-fit: cover;
+    margin-left: 10%;
+}
+.inicio .textoInicio .imagen2{
+    width: 50%;
+    height: 80%;
+
+    object-fit: cover;
+    
+}
