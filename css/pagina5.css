@@ -85,8 +85,8 @@ body {
 }
 
 .banner .intro .logo {
-  width: 70px;
-  height: 70px
+  width: 400px;
+  height: 400px
 }
 
 .banner .intro h1 {
@@ -111,8 +111,8 @@ body {
   text-decoration: none;
   padding: .6em 1.7em;
   display: inline-block;
-  min-width: 200px;
-  max-width: 100%;
+  min-width: 100px;
+  max-width: 50%;
   font-size: 1.1em;
   border-radius: 4px;
   margin-right: 1.3em
@@ -254,4 +254,56 @@ footer {
   color: #888;
   font-weight: 700;
   margin: 5em 0 1em 0
+}
+*, *:before,*:after{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  
+}    
+
+body{
+  background-color: rgb(255, 255, 255);
+  
+ 
+  
+}
+
+nav{
+padding: none;
+  
+  height: 12vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  
+}
+
+.vistas{
+  display: flex;
+  list-style: none;
+
+ 
+}
+.vistas li{
+
+  padding: 15%;
+  display: block;
+}
+
+.vistas li a{
+  font-size: 30px;
+  color: rgb(200, 0, 0);
+  font-weight: bolder;
+  text-decoration: none;
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vistas li.active a{
+  color: white;
 }
