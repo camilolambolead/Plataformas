@@ -1,5 +1,6 @@
 window.onload = init;
 
 function init(){
-    alert("hola");
+    alert("Bienvenido a la mejor pagina");
 }
+
